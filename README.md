@@ -1,14 +1,13 @@
-# Uppgift: Automatisering och publicering 
+# Uppgift: CSS-preprocessorer 
 
-Detta repository skapades med hjälp av Node.js och Parcel för att:
-- Möjliggöra automatisk publicering av webbplatsen vid uppdateringar.
-- Skapa en grundstruktur (boilerplate) som kan återanvändas i framtida projekt.
+Detta repository innehåller en webbplats som byggts med hjälp av Node.js och Parcel. Uppgiften fokuserar på att använda SASS som CSS-preprocessor.
 
 ## Funktioner
 
 - **Automatisering:** Automatisk byggprocess och publicering via GitHub och Netlify.
-- **Optimering:** Minifiering av CSS, JavaScript och HTML samt optimering av bilder.
-- **Återanvändbar struktur:** En tydlig mappstruktur för HTML, CSS, JavaScript och bilder.
+- **SASS som CSS-preprocessor:** Webbplatsens design är byggd helt i SASS med användning av variabler, nesting, mixins, `@extend`, color functions samt `@if/else`-satser.
+- **Partial-struktur:** SCSS-koden är uppdelad i flera partials för t.ex. layout, komponenter, variabler och reset, som sedan importeras i `main.scss`.
+- **Dark/light mode:** Webbplatsen växlar färgschema automatiskt baserat på användarens systeminställningar med hjälp av `prefers-color-scheme`.
 
 ## Utvecklare 
 
