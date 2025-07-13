@@ -1,0 +1,55 @@
+//Entire page body style 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+    color: $text-color;
+    line-height: 1.7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+//Header styling and limited width 
+header {
+    background-color: $primary-color;
+    max-width: 75vw;
+    margin: 0 auto;
+    border-radius: $border-radius;
+}
+
+//Centers main heading
+h1 {
+    padding: 1rem;
+    text-align: center;
+}
+
+//Navigation menu layout and design 
+.navigation {
+    ul {
+        background-color: $secondary-color;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 3rem;
+        padding: 1rem;
+    }
+
+
+    //Design and hover effect on navigation links
+    a {
+        background-color: $secondary-color;
+        color: $text-color;
+        text-decoration: none;
+        padding: 1rem;
+        border-radius: $border-radius;
+
+        &:hover {
+            background-color: darken($secondary-color, 25%);
+        }
+    }
+}
+
+//Hidden hamburger menu while full navigation menu is displayed
+.hamburger-menu {
+    display: none;
+}
