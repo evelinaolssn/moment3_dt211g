@@ -79,3 +79,14 @@ h3 {
 .button-section {
     margin-top: 3rem;
 }
+
+//Footer styling
+footer {
+    text-align: center;
+    max-width: 75vw;
+    padding: 1rem;
+    margin: 3rem auto 0 auto;
+    background-color: $primary-color;
+    color: $text-color;
+    border-radius: $border-radius;
+}
