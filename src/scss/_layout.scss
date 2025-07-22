@@ -10,8 +10,15 @@
     width: 100%;
     padding: 2rem;
 
+    //Layout for smaller screens
+    @media (max-width: 1024px ) {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
     .grid-image img {
         max-width: 100%;
+        width: 30rem;
         height: auto;
         border-radius: $border-radius;
         justify-items: center;
@@ -23,3 +30,4 @@
     @extend %main-layout;
     background-color: $secondary-color;
 }
+
