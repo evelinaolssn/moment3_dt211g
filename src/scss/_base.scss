@@ -22,6 +22,17 @@ h1 {
     text-align: center;
 }
 
+/*Title design*/
+h2 {
+    text-align: center;
+    padding: 1rem;
+    color: darken($secondary-color, 25%);
+}
+
+h3 {
+    color: lighten($text-color, 20%);
+}
+
 //Navigation menu layout and design 
 .navigation {
     ul {
@@ -52,4 +63,19 @@ h1 {
 //Hidden hamburger menu while full navigation menu is displayed
 .hamburger-menu {
     display: none;
+}
+
+//Styling for the button on the start page
+.button-startpage {
+    @include button-style($primary-color, $text-color);
+}
+
+//Styling for button on the SASS page
+.button-sass {
+    @include button-style($background-color, $text-color);
+}
+
+//Adds space above the button
+.button-section {
+    margin-top: 3rem;
 }
