@@ -67,12 +67,12 @@ h3 {
 
 //Styling for the button on the start page
 .button-startpage {
-    @include button-style($primary-color, $text-color);
+    @include button-style($primary-color, $text-color, true);
 }
 
 //Styling for button on the SASS page
 .button-sass {
-    @include button-style($background-color, $text-color);
+    @include button-style($background-color, $text-color, false);
 }
 
 //Adds space above the button
